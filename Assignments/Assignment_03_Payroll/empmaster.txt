@@ -1,0 +1,11 @@
+empid, empname, dno, gender, placecode, basicsalary
+1001,Mohan,12,m,101,25000
+1002,rama,11,m,102,45000
+1003,amar,14,m,103,50000
+1004,ravi,13,m,102,25000
+1005,kiran,12,m,103,34000
+1006,suma,13,f,104,30000
+1007,reema,12,f,102,75000
+1008,reshma,14,f,105,45000
+1009,akash,11,m,103,32000
+1010,avinash,14,m,104,45000

@@ -1,0 +1,6 @@
+billno,Partyname,phoneno,place
+1001,Mohan,9789456737,Hassan
+1002,Kumar,9876890645,Mysore
+1003,Akash,7456782914,Hassan
+1004,Rithesh,9456278913,Hassan
+1005,Supi,7563789253,Mysore

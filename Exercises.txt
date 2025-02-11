@@ -1,0 +1,132 @@
+Exercise 01
+------------
+    Program to find the biggest of two numbers
+===========================================================================================================================================
+Exercise 02
+-----------
+    Program to find the net price of the item,
+    if the item price is more than 10000 10% discount
+    if the item price is less then 10000 5% discount
+===========================================================================================================================================
+Exercise 03
+-----------
+    Program to accept the gender Male/Female,
+    if gender is male then it should display Hi Sir otherwise Hi Madam
+=========================================================================================================================================== 
+Exercise 04
+-----------
+    To find the biggest of three number
+        a.) with logical operators
+        b.) without logical operators
+===========================================================================================================================================
+Exercise 05
+-----------
+    To find the total, average, grade of a student, accept marks of six subjects and find these.
+=========================================================================================================================================== 
+Exercise 06
+-----------
+    To find average of best of three test marks, accept the marks of three tests and find the average of two higest marks.
+=========================================================================================================================================== 
+Exercise 07
+-----------
+    To find the given number is even or odd
+===========================================================================================================================================
+Exercise 08
+-----------
+    Program to print only even numbers from the given list object
+===========================================================================================================================================
+Exercise 09
+-----------
+    To find the sum of elements of the given list
+    lst = [10,20,30,40]
+===========================================================================================================================================
+Exercise 10
+-----------
+    To find the biggest element in the given list without using builtin function.
+===========================================================================================================================================
+Exercise 11
+-----------
+    program to find the given number is prime number or not
+    (number which is divisiable by itself)
+===========================================================================================================================================
+Exercise 12
+-----------
+    To generate the multiplication table of the give number
+        ex : Enter a number : 5
+            output : 5 x 1 = 5
+                     ....
+                     ....
+                     5 x 10 = 50
+===========================================================================================================================================
+Exercise 13
+-----------
+    print the name which is starting from letter 'a' without using builtin function
+    namelist = [rama, krishna, amar, akbar, antony]
+===========================================================================================================================================
+Exercise 14
+-----------
+    name=['saFA','DruVha','mujaSIM','amitHa','susHeEl'.........10 names]
+    sal=[40000,50000,60000,55000,45000......]
+    dno=[11,12,13,14,15........]
+    gender=['m','m','f','f','m'......]
+
+    (dno : department number should be 11 to 15 only)
+    (department name can be give according to your wish, 11 : technical, 12 : Hr so on.)
+
+    need to transform dno to dept name.
+    convert names to proper case
+    transfrom m and f to male and female respectively
+    
+    output : Safa,40000,Technical,Female
+
+    Do the following Analysis :
+        Find total number of Male employees
+        Find total number of Female employees
+        Find total number of employees working in each department
+        Find higest salaried in male
+        find higest salaried in female
+===========================================================================================================================================
+Exercise 15
+-----------
+    name=['a','b','c','d','e']
+    bal = [1000,2000,4000,6000,3500]
+    ttype = [cr,dr,cr,cr,dr]
+    tamount = [2000,500,1000,500,2000] (transcation amount)
+
+    output : (a,1000,2000,cr,3000) => (name,bal,tamount,ttype,new_bal)
+=========================================================================================================================================== 
+Exercise 16
+-----------
+    amt = [1000,20000,.........]
+
+    if amt <= 10000 gst 18%
+       amt > 10000 23% gst
+
+    sample output : (10000,18,1800,11800)
+
+    write a user defined function to calculate gst and use the function to generate sample output
+===========================================================================================================================================
+Exercise 17
+-----------
+    name=['a','b','c','d','e'.........10 students]
+    gender=['f','m','m','f','m'.....]
+    s1 = [......]
+    s2 = [......]
+      ...
+      ...
+      ...
+    s6 = [.....]
+    
+    Find Total,Average and Grade
+    please write a function to find the grade
+
+    sample output : (a,90,90,90,90,90,90,540,90,FCD)
+
+    Do the following analysis :
+        Total number Students passed
+        Total number male students passed
+        Total number female students passed
+        Percent of male students passed
+        Percent of female students passed
+        Highest percent of male student
+        highest percent of female student

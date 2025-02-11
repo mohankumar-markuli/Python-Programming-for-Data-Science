@@ -1,0 +1,6 @@
+dno, dname
+11,HR
+12,Technical 
+13,Accounts 
+14,Network 
+15,Test

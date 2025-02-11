@@ -1,0 +1,6 @@
+placecode, place
+101,Hassan
+102,Bangalore
+103,Mysore
+104,Mangalore
+105,Shimoga

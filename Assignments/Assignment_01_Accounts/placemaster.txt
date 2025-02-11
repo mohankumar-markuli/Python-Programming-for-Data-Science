@@ -1,0 +1,6 @@
+placecode, place
+11,Hassan
+12,Bangalore
+13,Mysore
+14,Mangalore
+15,Shimoga

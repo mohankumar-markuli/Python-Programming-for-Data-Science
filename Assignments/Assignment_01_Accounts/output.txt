@@ -1,0 +1,10 @@
+1001 rama Hassan m 5000.0 2500.0 0 7500.0 balance maintained
+1002 krishan Bangalore m 10000.0 0 8000.0 2000.0 balance maintained
+1003 amar Hassan m 7500.0 0 4000.0 3500.0 balance maintained
+1004 ravi Bangalore m 6500.0 0 6000.0 500.0 minimum balance not maintained
+1005 kiran Mysore m 12000.0 5000.0 0 17000.0 balance maintained
+1006 suma Shimoga f 25000.0 0 24500.0 500.0 minimum balance not maintained
+1007 reema Mangalore f 14000.0 2000.0 0 16000.0 balance maintained
+1008 reshma Shimoga f 2500.0 5000.0 0 7500.0 balance maintained
+1009 akash Mysore m 1000.0 500.0 0 1500.0 balance maintained
+1010 avinash Mangalore m 18000.0 0 17500.0 500.0 minimum balance not maintained

@@ -1,0 +1,182 @@
+**********************************************Assignment 01**********************************************
+======================================
+create following files with these data
+======================================
+File Name : AccountMaster.txt
+-----------------------------
+accountNo, customername, placecode, gender, balance
+1001,rama,11,m,5000
+1002,krishan,12,m,10000
+1003,amar,11,m,7500
+1004,ravi,12,m,6500
+1005,kiran,13,m,12000
+1006,suma,15,f,25000
+1007,reema,14,f,14000
+1008,reshma,15,f,2500
+1009,akash,13,m,1000
+1010,avinash,14,m,18000
+----------------------------------
+File Name : AccountTransaction.txt
+----------------------------------
+accountno, amount, transactiontype
+1001,2500,cr
+1002,8000,dr
+1003,4000,dr
+1004,6000,dr
+1005,5000,cr
+1006,24500,dr
+1007,2000,cr
+1008,5000,cr
+1009,500,cr
+1010,17500,dr
+---------------------------
+File Name : placeMaster.txt
+---------------------------
+placecode, place
+11,Hassan
+12,Bangalore
+13,Mysore
+14,Mangalore
+15,Shimoga
+================================
+Perform the following operations
+================================
+    if the transaction type is cr add that amount to the balance
+    if the transaction type is db deduct that amount from the balance after the deduction 
+    if the current balance is <1000 in comments column give message "minimum balance not maintained"
+    if current balance is > 1000 then in comments give the message "Balance Maintained"
+=============================================
+Output File should be in the following format
+==============================================
+File Name : Output.txt
+----------------------------------------------------------------------------------------
+accountNo, customername, place, gender, balance, credit, debit, currentbalance, comments
+-----------------------------------------------------------------------------------------
+1001 rama Hassan m 5000.0 2500.0 0 7500.0 balance maintained
+1002 krishan Bangalore m 10000.0 0 8000.0 2000.0 balance maintained
+1003 amar Hassan m 7500.0 0 4000.0 3500.0 balance maintained
+1004 ravi Bangalore m 6500.0 0 6000.0 500.0 minimum balance not maintained
+1005 kiran Mysore m 12000.0 5000.0 0 17000.0 balance maintained
+1006 suma Shimoga f 25000.0 0 24500.0 500.0 minimum balance not maintained
+1007 reema Mangalore f 14000.0 2000.0 0 16000.0 balance maintained
+1008 reshma Shimoga f 2500.0 5000.0 0 7500.0 balance maintained
+1009 akash Mysore m 1000.0 500.0 0 1500.0 balance maintained
+1010 avinash Mangalore m 18000.0 0 17500.0 500.0 minimum balance not maintained
+
+
+
+
+**********************************************Assignment 02**********************************************
+======================================
+create following files with these data
+======================================
+File Name : billDetails.txt
+---------------------------
+billno,itemname,price,qty,amount,GST,netamount
+1001,rice,500,3,1500,270,1770
+1001,juice,45,4,180,32.4,212.4
+1001,book,64,25,1600,288,1948
+1002,chocolate,120,10,1200,216,1416
+1002,rice,500,3,1500,270,1770
+1003,juice,45,4,180,32.4,212.4
+1003,cookies,30,5,150,27,177
+1003,book,64,25,1600,288,1948
+1004,chocolate,120,10,1200,216,1416
+1004,juice,45,4,180,32.4,212.4
+1004,cookies,30,5,150,27,177
+1005,rice,500,3,1500,270,1770
+1005,chocolate,120,10,1200,216,1416
+--------------------------
+File Name : BillMaster.txt
+--------------------------
+billno,Partyname,phoneno,place
+1001,Mohan,9789456737,Hassan
+1002,Kumar,9876890645,Mysore
+1003,Akash,7456782914,Hassan
+1004,Rithesh,9456278913,Hassan
+1005,Supi,7563789253,Mysore
+================================
+Perform the following operations
+================================
+    BillMaster : billno, Partyname, phoneno, place
+    billdetails : billno, itemname, price, qty, amount, gst (18%), net total
+    Each billno should have two to three items in bill details like that create around 5 bills.
+=============================================
+Output File should be in the following format
+==============================================
+File Name : Output.txt
+-------------------------------------------------------
+BillNo, PartyName, Phone, Place, Amount, GST, NetAmount
+-------------------------------------------------------
+
+
+Its like a summary report, I want to know how much bills generated today and what is the net amount of each and ever bill.
+
+
+
+**********************************************Assignment 03**********************************************
+======================================
+create following files with these data
+======================================
+File Name : departmentmaster.txt
+-----------------------------
+dno, dname
+11,HR
+12,Technical 
+13,Accounts 
+14,Network 
+15,Test
+----------------------------------
+File Name : empmaster.txt
+----------------------------------
+empid, empname, dno, gender, placecode, basicsalary
+1001,Mohan,12,m,101,25000
+1002,rama,11,m,102,45000
+1003,amar,14,m,103,50000
+1004,ravi,13,m,102,25000
+1005,kiran,12,m,103,34000
+1006,suma,13,f,104,30000
+1007,reema,12,f,102,75000
+1008,reshma,14,f,105,45000
+1009,akash,11,m,103,32000
+1010,avinash,14,m,104,45000
+---------------------------
+File Name : placeMaster.txt
+---------------------------
+placecode, place
+101,Hassan
+102,Bangalore
+103,Mysore
+104,Mangalore
+105,Shimoga
+================================
+Perform the following operations
+================================
+    HRA : 10% of Basic Salary
+    DA : 5% of Basic Salary
+    CCA : 5% of Basic Salary
+    GrossSalary : Basicsalary + hra + da + cca
+    PF : 5% of Basic Salary
+    PT : 500
+    IncomeTax :
+        if salary >=50000 10% of BasicSalary<br>
+        if salary < 50000 5% of BasicSalary<br>
+    TotalDeduction = PF + PT + IT
+    Net Salary = GrossSalary - TotalDeduction
+=============================================
+Output File should be in the following format
+==============================================
+File Name : Output.txt
+----------------------------------------------------------------------------------------
+empid, empname, gender, department, place, basicsalary, hra,da,cca, grosssalary, pf,pt,incometax,totaldeduction,netsalary
+-----------------------------------------------------------------------------------------
+1001 Mohan Technical m Hassan 25000 2500.0 1250.0 1250.0 30000.0 1250.0 500 1250.0 3000.0 27000.0
+1002 rama HR m Bangalore 45000 4500.0 2250.0 2250.0 54000.0 2250.0 500 2250.0 5000.0 49000.0
+1003 amar Network m Mysore 50000 5000.0 2500.0 2500.0 60000.0 2500.0 500 5000.0 8000.0 52000.0
+1004 ravi Accounts m Bangalore 25000 2500.0 1250.0 1250.0 30000.0 1250.0 500 1250.0 3000.0 27000.0
+1005 kiran Technical m Mysore 34000 3400.0 1700.0 1700.0 40800.0 1700.0 500 1700.0 3900.0 36900.0
+1006 suma Accounts f Mangalore 30000 3000.0 1500.0 1500.0 36000.0 1500.0 500 1500.0 3500.0 32500.0
+1007 reema Technical f Bangalore 75000 7500.0 3750.0 3750.0 90000.0 3750.0 500 7500.0 11750.0 78250.0
+1008 reshma Network f Shimoga 45000 4500.0 2250.0 2250.0 54000.0 2250.0 500 2250.0 5000.0 49000.0
+1009 akash HR m Mysore 32000 3200.0 1600.0 1600.0 38400.0 1600.0 500 1600.0 3700.0 34700.0
+1010 avinash Network m Mangalore 45000 4500.0 2250.0 2250.0 54000.0 2250.0 500 2250.0 5000.0 49000.0

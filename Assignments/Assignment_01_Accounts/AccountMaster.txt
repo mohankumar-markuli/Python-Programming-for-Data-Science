@@ -1,0 +1,11 @@
+accountNo, customername, placecode, gender, balance
+1001,rama,11,m,5000
+1002,krishan,12,m,10000
+1003,amar,11,m,7500
+1004,ravi,12,m,6500
+1005,kiran,13,m,12000
+1006,suma,15,f,25000
+1007,reema,14,f,14000
+1008,reshma,15,f,2500
+1009,akash,13,m,1000
+1010,avinash,14,m,18000
